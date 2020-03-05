@@ -1,0 +1,22 @@
+{
+  "name": "perts-ui",
+  "version": "0.0.1",
+  "description": "PERTS React UI Components",
+  "main": "index.js",
+  "dependencies": {
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PERTS/perts-ui.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/PERTS/perts-ui/issues"
+  },
+  "homepage": "https://github.com/PERTS/perts-ui#readme"
+}
