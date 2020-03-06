@@ -48,6 +48,19 @@ const App = () => (
 ReactDOM.render(<App />, document.querySelector('#app'));
 ```
 
+## Storybook Deployer
+
+[Storybook Deployer](https://github.com/storybookjs/storybook-deployer) allows
+you to deploy your Storybook to a static hosting service.
+
+You can manually deploy Storybook by running:
+
+```
+npm run storybook:deploy
+```
+
+Which will make the Storybook available at https://perts.github.io/perts-ui
+
 ## Documentation
 
 View the Storybook documentation here.
