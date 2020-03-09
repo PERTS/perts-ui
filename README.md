@@ -53,6 +53,13 @@ ReactDOM.render(<App />, document.querySelector('#app'));
 [Storybook Deployer](https://github.com/storybookjs/storybook-deployer) allows
 you to deploy your Storybook to a static hosting service.
 
+### Automatic Deployment
+
+Codeship has been set up to automatically deploy Storybook on successful builds
+of the `master` branch.
+
+### Manual Deployment
+
 You can manually deploy Storybook by running:
 
 ```
@@ -63,4 +70,4 @@ Which will make the Storybook available at https://perts.github.io/perts-ui
 
 ## Documentation
 
-View the Storybook documentation here.
+View the [Storybook documentation](https://perts.github.io/perts-ui).
