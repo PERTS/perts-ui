@@ -18,7 +18,17 @@ Create a `typings.d.ts` in the root of the project directory where you're using 
 declare module 'perts-ui';
 ```
 
-## Development Setup
+## Development: Using Storybook
+
+```
+npm run storybook
+```
+
+Enjoy that hot reloading sweetness http://localhost:6006
+
+## Development: In App
+
+Sometimes, you may want to develop/test changes you're making from directly within the app you're importing `perts-ui` into. To do this, you can utilize [`npm link`](https://docs.npmjs.com/cli/link).
 
 After cloning this repo:
 
@@ -42,8 +52,10 @@ Create a `typings.d.ts` in the root of the project directory where you're using 
 declare module 'perts-ui';
 ```
 
-*If you make changes to `perts-ui`, you'll need to `npm run build` for those
+:hand: If you make changes to `perts-ui`, you'll need to `npm run build` for those
 changes to take affect in the project you are importing into.
+
+:hand: Don't forget to run `npm unlink` when done so you don't run into conflicts.
 
 
 ## Usage
