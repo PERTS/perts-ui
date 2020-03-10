@@ -34,6 +34,7 @@ jobs:
 
   # Capture screenshots
   # https://github.com/marketplace/actions/screenshot-website
+  # https://github.com/sindresorhus/capture-website
   screenshot:
     name: screenshot-website
     strategy:
@@ -51,4 +52,5 @@ jobs:
           source: https://github.com/swinton/screenshot-website
           destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
           width: ${{ matrix.width }}
+          scale-factor: 1
           full-page: true
