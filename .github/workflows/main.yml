@@ -44,9 +44,9 @@ jobs:
 
     steps:
       - name: Take a screenshot
-        uses: swinton/screenshot-website@v1.0.0
+        uses: swinton/screenshot-website@v1.x
         with:
           source: https://github.com/swinton/screenshot-website
           destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
-          # width: ${{ matrix.width }}
-          full-page: true
+          width: ${{ matrix.width }}
+          # full-page: true
