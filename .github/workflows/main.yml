@@ -49,8 +49,8 @@ jobs:
       - name: Take a screenshot
         uses: swinton/screenshot-website@v1.x
         with:
-          source: https://github.com/swinton/screenshot-website
+          source: https://perts.net
           destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
-          # width: ${{ matrix.width }}
-          scale-factor: 1
-          full-page: true
+          width: ${{ matrix.width }}
+          #scale-factor: 1
+          #full-page: true
