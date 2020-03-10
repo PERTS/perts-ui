@@ -33,6 +33,7 @@ jobs:
         echo test, and deploy your project.
 
   # Capture screenshots
+  # https://github.com/marketplace/actions/screenshot-website
   screenshot:
     name: screenshot-website
     strategy:
