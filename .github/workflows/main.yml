@@ -51,6 +51,6 @@ jobs:
         with:
           source: https://github.com/swinton/screenshot-website
           destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
-          width: ${{ matrix.width }}
+          # width: ${{ matrix.width }}
           scale-factor: 1
           full-page: true
