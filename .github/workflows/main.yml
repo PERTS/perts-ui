@@ -53,4 +53,4 @@ jobs:
           destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
           width: ${{ matrix.width }}
           scale-factor: 1
-          #full-page: true
+          full-page: true
