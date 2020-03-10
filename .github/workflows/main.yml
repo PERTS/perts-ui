@@ -52,5 +52,5 @@ jobs:
           source: https://perts.net
           destination: screenshot-${{ matrix.os }}-${{ matrix.width }}.png
           width: ${{ matrix.width }}
-          #scale-factor: 1
+          scale-factor: 1
           #full-page: true
