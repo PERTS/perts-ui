@@ -4,6 +4,7 @@
   "description": "PERTS React component library.",
   "main": "build/index.js",
   "scripts": {
+    "prebuild": "rm -rf build/*",
     "build": "npm run build:js; npm run build:ts",
     "build:js": "babel lib -d build",
     "build:ts": "cp lib/index.d.ts build/index.d.ts",
