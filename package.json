@@ -17,6 +17,7 @@
     "storybook:deploy": "storybook-to-ghpages"
   },
   "dependencies": {
+    "@storybook/addon-storysource": "^5.3.18",
     "react": "^16.13.1"
   },
   "devDependencies": {
