@@ -6,7 +6,7 @@
   "scripts": {
     "prebuild": "rm -rf build/*",
     "build": "npm run build:js; npm run build:ts",
-    "build:js": "babel lib -d build",
+    "build:js": "babel lib -d build --ignore '**/*.stories.js'",
     "build:ts": "cp lib/index.d.ts build/index.d.ts",
     "lint": "eslint lib/**",
     "lint:watch": "esw -w lib/**",
