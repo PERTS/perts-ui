@@ -9,7 +9,7 @@
 From within project directory where you'd like to use `perts-ui`:
 
 ```
-npm install --save https://github.com/PERTS/perts-ui.git
+npm install --save https://github.com/PERTS/perts-ui.git styled-components
 ```
 
 ## Development: Using Storybook
