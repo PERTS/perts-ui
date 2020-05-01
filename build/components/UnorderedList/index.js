@@ -26,7 +26,7 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  line-height: ", ";\n"]);
+  var data = _taggedTemplateLiteral([""]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -37,7 +37,10 @@ function _templateObject() {
 
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
-var ULStyled = _styledComponents["default"].ul(_templateObject(), _theme["default"].units.lineHeight);
+var ULStyled = _styledComponents["default"].ul(_templateObject()); // const ULStyled = styled.ul`
+//   line-height: ${theme.units.lineHeight};
+// `;
+
 
 var UnorderedList = function UnorderedList(_ref) {
   var className = _ref.className,
@@ -47,7 +50,8 @@ var UnorderedList = function UnorderedList(_ref) {
   return /*#__PURE__*/_react["default"].createElement(ULStyled, _extends({
     className: cx
   }, props));
-};
+}; // const UnorderedList = () => <div>no styled-component</div>;
+
 
 UnorderedList.propTypes = {
   // To allow styled-components wrapping.

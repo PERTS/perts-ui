@@ -13,7 +13,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "d
 
 var HelloWorld = function HelloWorld(_ref) {
   var name = _ref.name;
-  return /*#__PURE__*/_react["default"].createElement("div", null, "Hello ", name, "!");
+  return /*#__PURE__*/_react["default"].createElement("div", null, "Hello ", name, "!z1");
 };
 
 HelloWorld.propTypes = {
