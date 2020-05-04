@@ -1,0 +1,19 @@
+/*
+Include the following in your HTML head:
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+</style>
+*/
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  
+  line-height: 1.44em;
+
+  /* Matches theme.colors.grayDark */
+  color: #202020;
+}
