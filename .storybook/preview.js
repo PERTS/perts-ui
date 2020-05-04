@@ -6,3 +6,8 @@ addParameters({
     viewports: INITIAL_VIEWPORTS,
   },
 });
+
+import '../lib/styles/boxSizingReset.css';
+import '../lib/styles/bodyPadding.css';
+import '../lib/styles/colors.css';
+import '../lib/styles/fonts.css';
