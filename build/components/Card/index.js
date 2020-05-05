@@ -68,5 +68,9 @@ Card.propTypes = {
   children: _propTypes["default"].any,
   title: _propTypes["default"].any
 };
+Card.displayName = 'Card';
+CardStyled.displayName = 'CardStyled';
+CardTitleStyled.displayName = 'Card.Title';
+CardContentStyled.displayName = 'Card.Content';
 var _default = Card;
 exports["default"] = _default;
