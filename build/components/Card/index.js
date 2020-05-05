@@ -5,6 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = void 0;
 
+var _react = _interopRequireDefault(require("react"));
+
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _styledComponents = _interopRequireDefault(require("styled-components"));
@@ -53,12 +55,18 @@ var CardTitleStyled = _styledComponents["default"].div(_templateObject2(), _them
 
 var CardContentStyled = _styledComponents["default"].div(_templateObject3(), _theme["default"].units.padding, _theme["default"].colors.grayLight, _theme["default"].colors.grayLight, _theme["default"].colors.grayLight);
 
-var Card = CardStyled;
+var Card = function Card(_ref) {
+  var children = _ref.children,
+      _ref$title = _ref.title,
+      title = _ref$title === void 0 ? false : _ref$title;
+  return /*#__PURE__*/_react["default"].createElement(CardStyled, null, title && /*#__PURE__*/_react["default"].createElement(CardTitleStyled, null, title), children);
+};
+
 Card.Title = CardTitleStyled;
 Card.Content = CardContentStyled;
 Card.propTypes = {
-  disabled: _propTypes["default"].bool,
-  loading: _propTypes["default"].bool
+  children: _propTypes["default"].any,
+  title: _propTypes["default"].any
 };
 var _default = Card;
 exports["default"] = _default;
