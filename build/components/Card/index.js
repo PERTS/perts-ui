@@ -9,6 +9,8 @@ var _react = _interopRequireDefault(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
+var _classnames = _interopRequireDefault(require("classnames"));
+
 var _styledComponents = _interopRequireDefault(require("styled-components"));
 
 var _theme = _interopRequireDefault(require("../theme"));
@@ -57,15 +59,20 @@ var CardContentStyled = _styledComponents["default"].div(_templateObject3(), _th
 
 var Card = function Card(_ref) {
   var children = _ref.children,
+      className = _ref.className,
       _ref$title = _ref.title,
       title = _ref$title === void 0 ? false : _ref$title;
-  return /*#__PURE__*/_react["default"].createElement(CardStyled, null, title && /*#__PURE__*/_react["default"].createElement(CardTitleStyled, null, title), children);
+  var cx = (0, _classnames["default"])(className);
+  return /*#__PURE__*/_react["default"].createElement(CardStyled, {
+    className: cx
+  }, title && /*#__PURE__*/_react["default"].createElement(CardTitleStyled, null, title), children);
 };
 
 Card.Title = CardTitleStyled;
 Card.Content = CardContentStyled;
 Card.propTypes = {
   children: _propTypes["default"].any,
+  className: _propTypes["default"].string,
   title: _propTypes["default"].any
 };
 Card.displayName = 'Card';
