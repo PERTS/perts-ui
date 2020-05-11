@@ -17,19 +17,26 @@ var colorsBrand = {
   primary: '#1C9DE3',
   primaryDark: '#061D2A',
   primaryLight: '#ACDBF4',
+  grayDark: '#202020',
+  grayMedium: '#464646',
+  grayLight: '#DDDDDD',
   green: '#44E790',
   red: '#E74444',
-  white: '#F7F8FA',
-  yellow: '#E7DA44'
+  yellow: '#E7DA44',
+  offWhite: '#F7F8FA',
+  white: '#FFFFFF'
 };
 var colorsAliases = {
   info: colorsBrand.yellow,
   success: colorsBrand.green,
-  warning: colorsBrand.red
+  warning: colorsBrand.red,
+  text: colorsBrand.grayDark
 };
 var units = {
+  borderRadius: '3px',
   lineHeight: '1.4em',
-  liFontTopPosition: '.14em'
+  liFontTopPosition: '.14em',
+  padding: '16px'
 };
 var _default = {
   colors: _objectSpread({}, colorsAliases, {}, colorsBrand),
