@@ -1,0 +1,20 @@
+body {
+  /* Padding for wider screens. */
+  padding: 30px;
+
+  /*
+    Using padding instead of margin. But some browsers have a default margin, so
+    we want to explicitly set this to 0.
+  */
+  margin: 0;
+}
+
+/* Padding for narrower/mobile screens. */
+/* Matching with ${theme.units.appWidth) */
+@media (max-width: 820px) {
+  body {
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2xpYi9zdHlsZXMvYm9keVBhZGRpbmcuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsK0JBQStCO0VBQy9CLGFBQWE7O0VBRWI7OztHQUdDO0VBQ0QsU0FBUztBQUNYOztBQUVBLHlDQUF5QztBQUN6QywwQ0FBMEM7QUFDMUM7RUFDRTtJQUNFLGFBQWE7RUFDZjtBQUNGIiwiZmlsZSI6ImJvZHlQYWRkaW5nLmNzcyIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICAvKiBQYWRkaW5nIGZvciB3aWRlciBzY3JlZW5zLiAqL1xuICBwYWRkaW5nOiAzMHB4O1xuXG4gIC8qXG4gICAgVXNpbmcgcGFkZGluZyBpbnN0ZWFkIG9mIG1hcmdpbi4gQnV0IHNvbWUgYnJvd3NlcnMgaGF2ZSBhIGRlZmF1bHQgbWFyZ2luLCBzb1xuICAgIHdlIHdhbnQgdG8gZXhwbGljaXRseSBzZXQgdGhpcyB0byAwLlxuICAqL1xuICBtYXJnaW46IDA7XG59XG5cbi8qIFBhZGRpbmcgZm9yIG5hcnJvd2VyL21vYmlsZSBzY3JlZW5zLiAqL1xuLyogTWF0Y2hpbmcgd2l0aCAke3RoZW1lLnVuaXRzLmFwcFdpZHRoKSAqL1xuQG1lZGlhIChtYXgtd2lkdGg6IDgyMHB4KSB7XG4gIGJvZHkge1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gIH1cbn1cbiJdfQ== */
