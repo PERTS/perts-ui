@@ -9,13 +9,7 @@
 From within project directory where you'd like to use `perts-ui`:
 
 ```
-npm install --save https://github.com/PERTS/perts-ui.git
-```
-
-Create a `typings.d.ts` in the root of the project directory where you're using `perts-ui`:
-
-```
-declare module 'perts-ui';
+npm install --save https://github.com/PERTS/perts-ui.git styled-components
 ```
 
 ## Development: Using Storybook
