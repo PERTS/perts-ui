@@ -12,6 +12,7 @@
     "build:css": "npx postcss lib/styles/*.css --use autoprefixer -d build/styles/",
     "lint": "eslint lib/**/*.js",
     "lint:watch": "esw -w lib/**/*.js",
+    "prepare": "npm run build",
     "prepublish": "npm run build",
     "test": "",
     "storybook": "start-storybook -p 6006",
