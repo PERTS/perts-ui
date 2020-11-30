@@ -30,8 +30,9 @@
     "react-dom": ">= 16.6.1",
     "styled-components": ">= 5.X"
   },
+  "devDependencies_comment": "Hey there, is Chris from the past. If you're in the future and this issue is fixed: https://github.com/storybookjs/storybook/issues/11255 then you can probably remove core-js from the dependencies.",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
+    "@babel/cli": "^7.12.8",
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "@babel/preset-react": "^7.9.4",
@@ -42,13 +43,14 @@
     "@storybook/addon-storysource": "^5.3.18",
     "@storybook/addon-viewport": "^5.3.18",
     "@storybook/addons": "^5.3.18",
-    "@storybook/react": "^5.3.18",
-    "@storybook/storybook-deployer": "^2.8.5",
+    "@storybook/react": "^6.1.9",
+    "@storybook/storybook-deployer": "^2.8.7",
     "autoprefixer": "^9.7.6",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "babel-preset-react": "^6.24.1",
     "copyfiles": "^2.2.0",
+    "core-js": "^3.8.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-babel": "^5.3.0",
@@ -59,6 +61,7 @@
     "prettier": "^2.0.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "storybook": "^6.1.9",
     "styled-components": "5.1.0"
   },
   "repository": {
