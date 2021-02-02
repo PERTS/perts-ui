@@ -26,6 +26,10 @@
     "react-icons": "^3.10.0"
   },
   "peerDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
     "react": ">= 16.6.1",
     "react-dom": ">= 16.6.1",
     "styled-components": ">= 5.X"
